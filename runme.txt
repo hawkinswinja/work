@@ -1,0 +1,5 @@
+$ lex grammar.l
+$ yacc -d grammar.y
+$ gcc -o grammar y.tab.c lex.yy.c -ll
+$ ./grammar
+//enter string input
